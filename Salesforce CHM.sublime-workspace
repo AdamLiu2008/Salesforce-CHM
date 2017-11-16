@@ -1,1 +1,325 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"item",
+				"OrderItems"
+			],
+			[
+				"Inventory_Activity__c",
+				"Inventory_Activity__c"
+			],
+			[
+				"ChannelInvent",
+				"Channel_Inventory__c"
+			],
+			[
+				"Or",
+				"Order"
+			],
+			[
+				"Inte",
+				"Interaction_Records__c"
+			],
+			[
+				"interaction",
+				"interaction_records"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/classes/DeleteAll.cls",
+			"settings":
+			{
+				"buffer_size": 769,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: IN",
+		"selected_items":
+		[
+			[
+				"Package Control: IN",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: R",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: iNSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Adam Liu/Documents/Salesforce CHM",
+		"/C/Users/Adam Liu/Documents/Salesforce CHM/src",
+		"/C/Users/Adam Liu/Documents/Salesforce CHM/src/classes"
+	],
+	"file_history":
+	[
+		"/C/Users/Adam Liu/Desktop/salesforce codes/SAPDMUSendToCRMExtension.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/triggers/OrderTriggerInventoryUpdate.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/pages/Request2Delivery.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/pages/OrderCancelled.page",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/CastIronIntegrationUtil.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/InventoryActivity.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateInventoryRecord.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateInventoryActivity.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateInvActList.cls",
+		"/C/Users/Adam Liu/Desktop/salesforce codes/SAPDMUSendToCRM.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CancelledItem.cls",
+		"/C/Users/Adam Liu/Desktop/salesforce codes/SAPDMUBatch.cls",
+		"/C/Users/Adam Liu/Desktop/salesforce codes/SAPDMUBatchScheduler.cls",
+		"/C/Users/Adam Liu/Desktop/salesforce codes/BackupCode.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/SAPDMUMassSendToCRMExtension.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexPage/Need_DMU_First.page",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/Choose_Approver.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexPage/SAPDMUSendToCRM.page",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/SAPDMUBatchScheduler.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/SAPDMUBatch.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/ScheduleMultipleBatchJobs.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/SAPDMUSendToCRMExtension.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/LenovoServices.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/AccountTeamMemberBatchScheduler.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-JP-Sandbox-20131012/ApexClass/OnClickApplicationButton.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-B2B-JP-Sandbox-20131012/ApexClass/ProductWebService.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-AP-Sandbox-20131012/ApexClass/OpportunityTriggerHandler.cls",
+		"/D/SFDC Source/Salesforce Training-20170926/src/classes/DeleteTestAccount.cls",
+		"/C/Users/Adam Liu/Desktop/salesforce codes/BackupCode2.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/OrderCancelled.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-EMEA-DEV-20131009/ApexClass/OpportunitySendToSAPExtension.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateInventoryActivityXSSI.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateInvActList.cls-meta.xml",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateCaseController.cls",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-EMEA-DEV-20131009/ApexPage/OpportunitySendToSAP.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/AccountService.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/triggers/PagePrepare.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/triggers/ageYear.trigger-meta.xml",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/triggers/ageYear.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/triggers/HelloWorldTrigger.trigger-meta.xml",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CustomProductLookupController.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/pages/CustomProductLookup.page",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-EMEA-DEV-20131009/ApexTrigger/CaseAfterInsertUpdate.trigger",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-EMEA-DEV-20131009/ApexTrigger/CaseTransfer.trigger",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-EMEA-DEV-20131009/ApexTrigger/OpportunityLineItemSchedule.trigger",
+		"/D/[Salesforce Knowledge]/Salesforce code/Lenovo-EMEA-DEV-20131009/ApexTrigger/OpportunityTriggerSyncCloseDate.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/triggers/HelloWorldTrigger.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/pages/CreateIR.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/pages/TestButton.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/DoTest.cls",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/SAPDMUSendToCRMExtension.cls",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexClass/CastIronIntegrationUtil.cls",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexPage/SAPDMUSendToCRM.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/CreateIR.cls",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexTrigger/upadteCaseAge.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/BOOKGETALL.cls",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexTrigger/SequenceUpdate.trigger",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexTrigger/AccountMatch.trigger",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexTrigger/LeadAssignmentTrigger.trigger",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexTrigger/onTaskCompleted.trigger",
+		"/D/eclipse-workspace/Lenovo-B2B-NA-Sandbox-20131012/ApexTrigger/CreateSMSCForTask.trigger",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/customLead.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/pages/CreateCase.page",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/SFAccountWebService.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/SFDC-DEMO.sublime-project",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/InteractionRecordsTool.cls",
+		"/C/Users/Adam Liu/Documents/SFDC-DEMO/src/classes/InteractionRecordsTool.cls-meta.xml",
+		"/C/Users/Adam Liu/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Adam Liu/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/C/Users/Adam Liu/AppData/Roaming/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings",
+		"/C/Users/Adam Liu/AppData/Roaming/Sublime Text 3/Packages/MavensMate/sublime/settings-help.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/classes/DeleteAll.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Salesforce CHM.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
