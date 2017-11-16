@@ -1148,17 +1148,15 @@
         "mmState": "clean"
     },
     "DeleteAll.cls": {
-        "id": "01p7F00000CRSC7QAP",
-        "name": "DeleteAll",
-        "createdDate": "2017-11-15T02:01:16.000+0000",
         "createdById": "0057F000000eAW7QAM",
-        "namespacePrefix": null,
-        "lastModifiedById": "0057F000000eAW7QAM",
-        "lastModifiedDate": "2017-11-16T10:45:21.000+0000",
-        "fullName": "DeleteAll",
-        "fileName": "unpackaged/classes/DeleteAll.cls",
         "createdByName": "Adam Liu",
+        "createdDate": "2017-11-15T02:01:16.000Z",
+        "fileName": "unpackaged/classes/DeleteAll.cls",
+        "fullName": "DeleteAll",
+        "id": "01p7F00000CRSC7QAP",
+        "lastModifiedById": "0057F000000eAW7QAM",
         "lastModifiedByName": "Adam Liu",
+        "lastModifiedDate": "2017-11-15T02:13:55.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
