@@ -1,7 +1,5 @@
 public with sharing class DeleteAll {
 	
-//Used to initialization transaction data
-
 
 	public static void DeleteOrder() {
 		List<order> orders = [SELECT ID, Name, Status, OrderNumber FROM Order];
