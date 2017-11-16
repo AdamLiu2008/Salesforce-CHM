@@ -1,0 +1,2 @@
+<apex:page standardController="Book__c" extensions="DoTest" action="{!sendToCRM}"> 
+</apex:page>

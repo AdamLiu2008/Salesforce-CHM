@@ -1,0 +1,3 @@
+<apex:page standardController="Order" extensions="OrderDeliveried" action="{!OrderDeliveried}">
+
+</apex:page>

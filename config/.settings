@@ -1,0 +1,17 @@
+{
+    "projectName": "Salesforce CHM",
+    "username": "adamliu1984@outlook.com",
+    "id": "d5fe7380-caba-11e7-a915-a1690eebf8c7",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://ap5.salesforce.com",
+    "workspace": "C:\\Users\\Adam Liu\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

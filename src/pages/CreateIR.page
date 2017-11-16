@@ -1,0 +1,15 @@
+<apex:page controller="CreateIR" showHeader="false">  
+        <apex:form >
+        	<apex:pageblock >
+        		<apex:pageblocksection >
+         <!--   <apex:actionFunction action="{!createIR}" name="createIR" rerender="out"/>  -->
+				
+					<apex:inputField value="{!theIR.name}"></apex:inputField>
+					<apex:inputField value="{!theIR.Global_Price__c}"></apex:inputField>
+				</apex:pageblocksection>
+
+					<apex:commandbutton action="{!createIR}" value="Save"></apex:commandbutton>
+			</apex:pageblock>
+        </apex:form>
+        <!--<button type="button" onclick="createIR();">Create IR</button>  -->          
+</apex:page>
