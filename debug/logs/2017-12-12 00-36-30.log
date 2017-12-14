@@ -1,0 +1,119 @@
+36.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+01:36:38.0 (687908)|USER_INFO|[EXTERNAL]|0057F000000eAW7|adamliu1984@outlook.com|Australian Eastern Standard Time|GMT+11:00
+01:36:38.0 (725220)|EXECUTION_STARTED
+01:36:38.0 (729462)|CODE_UNIT_STARTED|[EXTERNAL]|01p7F00000DyTiY|testEmail2AccountTrigger.testAccountUpdate
+01:36:38.0 (1406324)|DML_BEGIN|[11]|Op:Insert|Type:Account|Rows:1
+01:36:38.0 (62780613)|CODE_UNIT_STARTED|[EXTERNAL]|TerritoryRealign
+01:36:38.0 (62867117)|CODE_UNIT_FINISHED|TerritoryRealign
+01:36:38.0 (89366953)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000aczh|email2Account on Account trigger event AfterInsert for [0017F00000MNUz5]
+01:36:38.0 (91842163)|SOQL_EXECUTE_BEGIN|[4]|Aggregations:0|SELECT Id, Name, Email_Address__c, Email_status__c FROM Account WHERE Id IN :tmpVar1
+01:36:38.0 (95571319)|SOQL_EXECUTE_END|[4]|Rows:1
+01:36:38.0 (95925402)|SOQL_EXECUTE_BEGIN|[5]|Aggregations:0|SELECT Account_Name__c FROM selectAccount__c
+01:36:38.0 (99389578)|SOQL_EXECUTE_END|[5]|Rows:2
+01:36:38.0 (99655241)|SOQL_EXECUTE_BEGIN|[8]|Aggregations:0|SELECT Body, Subject, HtmlValue FROM EmailTemplate WHERE name = 'EmailTemplate' LIMIT 1
+01:36:38.0 (125017718)|SOQL_EXECUTE_END|[8]|Rows:1
+01:36:38.129 (129621654)|CUMULATIVE_LIMIT_USAGE
+01:36:38.129 (129621654)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 1 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+01:36:38.129 (129621654)|CUMULATIVE_LIMIT_USAGE_END
+
+01:36:38.0 (130395815)|CODE_UNIT_FINISHED|email2Account on Account trigger event AfterInsert for [0017F00000MNUz5]
+01:36:38.0 (142574776)|DML_END|[11]
+01:36:38.0 (142709725)|USER_DEBUG|[12]|DEBUG|----->>> ADDING ACCOUNT: Account:{Name=adamliu84, Id=0017F00000MNUz5QAH}
+01:36:38.0 (142999894)|SOQL_EXECUTE_BEGIN|[16]|Aggregations:0|SELECT Account_Name__c FROM selectAccount__c WHERE Account_Name__c = :tmpVar1
+01:36:38.0 (146089824)|SOQL_EXECUTE_END|[16]|Rows:1
+01:36:38.0 (146244021)|USER_DEBUG|[18]|DEBUG|-------------++++++++++++++++++--------------(selectAccount__c:{Account_Name__c=adamliu84, Id=a037F000008ygWXQAY})
+01:36:38.0 (146482478)|SOQL_EXECUTE_BEGIN|[24]|Aggregations:0|SELECT Body, Subject, HtmlValue FROM EmailTemplate WHERE name = 'EmailTemplate' LIMIT 1
+01:36:38.0 (152846953)|SOQL_EXECUTE_END|[24]|Rows:1
+01:36:38.0 (159119458)|CODE_UNIT_STARTED|[EXTERNAL]|01p7F00000DyC93|sendEmailFromMailgun.sendEmailResponse
+01:36:38.0 (159209810)|USER_DEBUG|[18]|DEBUG|*** Email Logic Start Point ***
+01:36:38.0 (159743926)|CALLOUT_REQUEST|[63]|System.HttpRequest[Endpoint=https://api.mailgun.net/v3/sandboxfe5d4b40190f464088dc78f187e41889.mailgun.org/messages?from=NoReply<Help@Help.com>&to=null&subject=Send+Account+Information+by+using+Mailgun&html=Dear+adamliu84%2C+%0D%0A%3Cbr%3E%3Cbr%3E%0D%0AThank+you+for+joining+Lendi.%0D%0A%3Cbr%3E%3Cbr%3E%3Cbr%3E+%0D%0ABest+wishes%2C%0D%0A%3Cbr%3E%3Cbr%3E%0D%0ALendi, Method=POST]
+01:36:38.0 (159889709)|CALLOUT_RESPONSE|[63]|System.HttpResponse[Status=OK, StatusCode=200]
+01:36:38.0 (159925904)|USER_DEBUG|[66]|DEBUG|*** Email sent ***
+01:36:38.159 (159946190)|CUMULATIVE_LIMIT_USAGE
+01:36:38.159 (159946190)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+01:36:38.159 (159946190)|CUMULATIVE_LIMIT_USAGE_END
+
+01:36:38.0 (159981258)|CODE_UNIT_FINISHED|sendEmailFromMailgun.sendEmailResponse
+01:36:38.0 (161528843)|CODE_UNIT_STARTED|[EXTERNAL]|01p7F00000DyC93|sendEmailFromMailgun.sendEmailResponse
+01:36:38.0 (161575973)|USER_DEBUG|[18]|DEBUG|*** Email Logic Start Point ***
+01:36:38.0 (161731782)|CALLOUT_REQUEST|[63]|System.HttpRequest[Endpoint=https://api.mailgun.net/v3/sandboxfe5d4b40190f464088dc78f187e41889.mailgun.org/messages?from=NoReply<Help@Help.com>&to=adamliu2008@gmail.com&subject=Email+Subject&html=Email+Content, Method=POST]
+01:36:38.0 (161790440)|CALLOUT_RESPONSE|[63]|System.HttpResponse[Status=OK, StatusCode=200]
+01:36:38.0 (161805927)|USER_DEBUG|[66]|DEBUG|*** Email sent ***
+01:36:38.161 (161816697)|CUMULATIVE_LIMIT_USAGE
+01:36:38.161 (161816697)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+01:36:38.161 (161816697)|CUMULATIVE_LIMIT_USAGE_END
+
+01:36:38.0 (161836498)|CODE_UNIT_FINISHED|sendEmailFromMailgun.sendEmailResponse
+01:36:38.162 (162543326)|CUMULATIVE_LIMIT_USAGE
+01:36:38.162 (162543326)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 5 out of 100
+  Number of query rows: 6 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 1 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+01:36:38.162 (162543326)|TESTING_LIMITS
+01:36:38.162 (162543326)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 1 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+01:36:38.162 (162543326)|CUMULATIVE_LIMIT_USAGE_END
+
+01:36:38.0 (162570700)|CODE_UNIT_FINISHED|testEmail2AccountTrigger.testAccountUpdate
+01:36:38.0 (163253358)|EXECUTION_FINISHED
